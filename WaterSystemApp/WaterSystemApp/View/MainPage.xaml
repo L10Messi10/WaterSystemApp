@@ -8,9 +8,11 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+            <StackLayout WidthRequest="300">
+                <Entry Keyboard="Email" Visual="Material"/>
+            </StackLayout>
+            
+        </Frame>
     </StackLayout>
-
 </ContentPage>
